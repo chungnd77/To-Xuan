@@ -151,7 +151,7 @@
 <script>
     let datetxt = "1/1/2003";
     let datatxtletter = "Chúc mừng sinh nhật Xuân! Chúc Xuân tuổi mới luôn tươi vui, xinh xắn và dịu dàng như hiện tại. Mong mọi điều may mắn và tốt đẹp sẽ đến với cậu 💕";
-    let titleLetter = "Gửi Phạm Xuân";
+    let titleLetter = "Gửi Xuân";
     let charArrDate = datetxt.split('');
     let charArrDateLetter = datatxtletter.split('');
     let charArrTitle = titleLetter.split('');
@@ -259,10 +259,10 @@
     const fcMobile = mobile()
     if(window.innerWidth < 768){
         setTimeout(()=>{
-            fcMobile.timeout("26", document.querySelector(".day"))
+            fcMobile.timeout("1", document.querySelector(".day"))
         },5000)
         setTimeout(()=>{
-            fcMobile.timeout("10", document.querySelector(".month"))
+            fcMobile.timeout("1", document.querySelector(".month"))
         },6000)
     }
     
